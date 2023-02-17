@@ -10,13 +10,13 @@ stages{
 
   stage('Test') {
     steps{
-//       sh './PES2UG20CS339'
+      sh './PES2UG20CS339'
     }
   }
 
-  stage('Deploy') {
-    steps{
-      echo 'DEPLOYMENT SUCCESSFUL'
+ // stage('Deploy') {
+   // steps{
+     // echo 'DEPLOYMENT SUCCESSFUL'
     }
   }
 }
