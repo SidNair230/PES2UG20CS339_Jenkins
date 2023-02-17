@@ -14,9 +14,9 @@ stages{
     }
   }
 
- // stage('Deploy') {
-   // steps{
-     // echo 'DEPLOYMENT SUCCESSFUL'
+ stages345('Deploy') {
+    steps{
+      echo 'DEPLOYMENT SUCCESSFUL'
     }
   }
 }
